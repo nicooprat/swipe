@@ -83,50 +83,13 @@
             		<div id="content">
                 		<!-- <h1><img src="css/img/swipe.svg" /></h1> -->
                 		
-                        <h2>About</h2>
-                        <p>This is only a demo showing how to recreate the famous Path / Facebook iOS app -like menu. It relies on iScroll 4 (for inner scrolling content) and jQuery Pep (for left/right dragging with momentum). See credits section below for detailed informations and links.</p>
-                        
-                        <h2>Who is it for ?</h2>
-                        <p>It targets front-end developers that want to use this kind of navigation in their mobile web apps. Just download it, customize it and use it for your projects.</p>
-                        
-                        <h2>How does it work ?</h2>
-                        <p>Pretty simple ! There are 3 main layers : left menu, right menu and main content. They're all absolute positioned at (0,0,0,0). When opening / closing / dragging, the "left" attribute of the main wrapper is updated and so reveals the menus. One of the menus is then shown according to the direction (left or right).</p>
-                        
-                        <h2>What next ?</h2>
-                        <p>
-                            You can report bugs or suggest features on the project repository.
-                            <br />
-                            You can also help the project getting better. Just fork it on Github and start coding.
-                            <br />
-                            If you used it for your project, drop me a mail / tweet and I'll add a screenshot and a link to it here.
-                        </p>
-                        
-            		    <h2>Works in...</h2>
-                        <p>
-                            Desktop : Chrome + Safari + Firefox + Opera
-                            <br />
-                            Mobile : iOS 5.X Safari + iOS 5.x Chrome + Android 2.x
-                        </p>
-                        
-                        <h2>Credits</h2>
-                        <ul>
-                            <li><a href="http://pep.briangonzalez.org/">jQuery Pep</a></li>
-                            <li><a href="http://cubiq.org/iscroll-4">iScroll</a></li>
-                            <li><a href="http://dribbble.com/shots/381876-iPhone-holding-hand-free-PSD">iPhone holding hand by Mike Hall on Dribbble</a></li>
-                            <li><a href="http://thenounproject.com/en-us/noun/horizontal-swipe/#icon-No2924">Horizontal swipe by P.J. Onori on Thenounproject</a></li>
-                        </ul>
-                        
-                        <h2>Todo list</h2>
-                        <ul>
-                            <li>Use "overflow-y: scroll;" instead of using iScroll when supported (eg. iOS5).</li>
-                            <li>Use "translate" instead of "left" attribute for better performances (or switch back for wider compatibility).</li>
-                            <li>Allow clicking on main content to close menus again (at the moment, conflict with drag event ; <a href="https://github.com/briangonzalez/pep.jquery.js/issues/14">see issue here</a>).</li>
-                        </ul>
-                        
-                        <h2>Changelog</h2>
-                        <ul>
-                            <li>(july 2012) — 1.0 : release</li>
-                        </ul>
+                		<?php
+                		    include_once "inc/markdown.php";
+                		    $readme = file_get_contents("readme.md");
+                            $readme = Markdown($readme);
+                            echo $readme;
+                		?>
+                		
             		</div>
             	</div>
             </div>
