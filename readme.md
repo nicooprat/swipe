@@ -1,5 +1,6 @@
 ## About
 
+This is not a framework / library / bootstrap / etc.
 This is only a demo showing how to recreate the famous Path / Facebook
 iOS app -like menu. It relies on iScroll 4 (for inner scrolling content)
 and jQuery Pep (for left/right dragging with momentum). See credits
