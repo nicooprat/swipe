@@ -81,7 +81,10 @@
             <div id="wrapper">
             	<div id="scroller">
             		<div id="content">
-                		<!-- <h1><img src="css/img/swipe.svg" /></h1> -->
+                		
+                		<p id="download">
+                		    <a href="https://github.com/nicooprat/swipe/zipball/master">Download</a>
+                		</p>
                 		
                 		<?php
                 		    include_once "inc/markdown.php";

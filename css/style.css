@@ -165,6 +165,55 @@ a {
   font-size: 1.15em;
   color: #333333;
 }
+#main #wrapper #scroller #content #download {
+  text-align: center;
+}
+#main #wrapper #scroller #content #download a {
+  display: inline-block;
+  background: #4b9533;
+  padding: .5em .75em;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: 'Patua One', cursive;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+  border: 1px solid #254919;
+  border-bottom-width: 3px;
+  background-image: linear-gradient(center bottom, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-image: -ms-linear-gradient(center bottom, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-image: -moz-linear-gradient(center bottom, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.05)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -o-linear-gradient(center bottom, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+  -ms-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+  -o-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+}
+#main #wrapper #scroller #content #download a:before {
+  content: 'w';
+  font-family: "Entypo";
+  font-size: 2em;
+  line-height: 0;
+  margin-right: .2em;
+  vertical-align: -0.05em;
+}
+#main #wrapper #scroller #content #download a:active,
+#main #wrapper #scroller #content #download a:focus {
+  background-color: #386f26;
+  border-width: 3px 1px 1px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
+  -ms-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
+  -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
+}
 #main #wrapper #scroller #content h2:first-of-type {
   margin-top: 0;
 }
