@@ -190,11 +190,11 @@ a {
   -moz-border-radius: 0.25em;
   -webkit-border-radius: 0.25em;
   -o-border-radius: 0.25em;
-  box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
-  -ms-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
-  -o-box-shadow: 0 1px 0 rgba(255,255,255,.25) inset , 0 0 20px rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -ms-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
 }
 #main #wrapper #scroller #content #download a:before {
   content: 'w';
