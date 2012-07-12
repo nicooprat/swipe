@@ -22,33 +22,30 @@ the direction (left or right).
 
 ## What next ?
 
-You can report bugs or suggest features on the project repository.   
- You can also help the project getting better. Just fork it on Github
+* You can report bugs or suggest features on the project repository.   
+* You can also help the project getting better. Just fork it on Github
 and start coding.   
- If you used it for your project, drop me a mail / tweet and I’ll add a
+* If you used it for your project, drop me a mail / tweet and I’ll add a
 screenshot and a link to it here.
+* If you have a device / browser not listed below, please tell me if it worked or not.
 
 ## Works in...
 
-Desktop : Chrome + Safari + Firefox + Opera   
-Mobile : iOS 5.X Safari + iOS 5.x Chrome + Android 2.x
+* Desktop : Chrome + Safari + Firefox + Opera   
+* Mobile : iOS 5.X Safari + iOS 5.x Chrome + Android 2.x
 
 ## Credits
 
--   [jQuery Pep](http://pep.briangonzalez.org/)
--   [iScroll](http://cubiq.org/iscroll-4)
--   [iPhone holding hand by Mike Hall on Dribbble](http://dribbble.com/shots/381876-iPhone-holding-hand-free-PSD)
--   [Horizontal swipe by P.J. Onori on Thenounproject](http://thenounproject.com/en-us/noun/horizontal-swipe/#icon-No2924)
+* [jQuery Pep](http://pep.briangonzalez.org/)
+* [iScroll](http://cubiq.org/iscroll-4)
+* [iPhone holding hand by Mike Hall on Dribbble](http://dribbble.com/shots/381876-iPhone-holding-hand-free-PSD)
 
 ## Todo list
 
--   Use “overflow-y: scroll;” instead of using iScroll when supported
-    (eg. iOS5).
--   Use “translate” instead of “left” attribute for better performances
-    (or switch back for wider compatibility).
--   Allow clicking on main content to close menus again (at the moment,
-    conflict with drag event ; ([see issue here](https://github.com/briangonzalez/pep.jquery.js/issues/14)).
+* Use “overflow-y: scroll;” instead of using iScroll when supported (eg. iOS5).
+* Use “translate” instead of “left” attribute for better performances (or switch back for wider compatibility).
+* Allow clicking on main content to close menus again (at the moment, conflict with drag event ; ([see issue here](https://github.com/briangonzalez/pep.jquery.js/issues/14)).
 
 ## Changelog
 
--   (july 2012) — 1.0 : release
+* (july 2012) — 1.0 : release
