@@ -72,9 +72,16 @@ $(document).ready(function()
     
     $('#main #header .button').bind('touchstart click',function()
     {
-        absVelocity = 0;
-        changeDirection( $(this).attr('data-role') );
-        openMenu();
+        if( opened )
+        {
+            closeMenu();
+        }
+        else
+        {
+        	absVelocity = 0;
+            changeDirection( $(this).attr('data-role') );
+            openMenu();
+        }
         return false;
     });
     
