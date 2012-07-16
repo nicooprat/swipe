@@ -7,6 +7,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="apple-touch-icon-precomposed" href="icon.png" />
+        <meta property="og:image" content="http://nicooprat.com/swipe/icon.png">
     
         <title>Swipe!</title>
         
