@@ -214,6 +214,9 @@ a {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
   -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) inset;
 }
+#main #wrapper #scroller #content #github {
+  text-align: center;
+}
 #main #wrapper #scroller #content h2:first-of-type {
   margin-top: 0;
 }

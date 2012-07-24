@@ -88,6 +88,10 @@
                 		    <a href="https://github.com/nicooprat/swipe/zipball/master">Download</a>
                 		</p>
                 		
+                		<p id="github">
+                    		<a href="https://github.com/nicooprat/swipe">Or view the project on Github</a>
+                		</p>
+                		
                 		<div id="sharrre">
                             <div id="twitter" data-url="http://nicooprat.com/swipe" data-text="Ever dreamt of having a cool swipe-able menu in your mobile webapp ? Download it, customize it, use it." data-title="Tweet"></div>
                             <div id="facebook" data-url="http://nicooprat.com/swipe" data-text="Ever dreamt of having a cool swipe-able menu in your mobile webapp ? Download it, customize it, use it." data-title="Like"></div>
