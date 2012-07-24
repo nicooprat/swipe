@@ -39,6 +39,7 @@ screenshot and a link to it here.
 * [jQuery Pep](http://pep.briangonzalez.org/)
 * [iScroll](http://cubiq.org/iscroll-4)
 * [iPhone holding hand by Mike Hall on Dribbble](http://dribbble.com/shots/381876-iPhone-holding-hand-free-PSD)
+* [Horizontal swipe by P.J. Onori on Thenounproject](http://thenounproject.com/en-us/noun/horizontal-swipe/#icon-No2924)
 
 ## Todo list
 
