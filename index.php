@@ -7,11 +7,13 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="apple-touch-icon-precomposed" href="icon.png" />
+        <meta property="og:image" content="http://nicooprat.com/swipe/demo/icon.png">
     
         <title>Swipe!</title>
         
         <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/jquery.sharrre.css" />
         <link rel="stylesheet" href="css/style.css" />
     
     </head>
@@ -86,6 +88,11 @@
                 		    <a href="https://github.com/nicooprat/swipe/zipball/master">Download</a>
                 		</p>
                 		
+                		<div id="sharrre">
+                            <div id="twitter" data-url="http://nicooprat.com/swipe" data-text="Ever dreamt of having a cool swipe-able menu in your mobile webapp ? Download it, customize it, use it." data-title="Tweet"></div>
+                            <div id="facebook" data-url="http://nicooprat.com/swipe" data-text="Ever dreamt of having a cool swipe-able menu in your mobile webapp ? Download it, customize it, use it." data-title="Like"></div>
+                        </div>
+                		
                 		<?php
                 		    include_once "inc/markdown.php";
                 		    $readme = file_get_contents("readme.md");
@@ -110,6 +117,7 @@
         <script type="text/javascript" src="js/iscroll.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.pep.js"></script>
+        <script type="text/javascript" src="js/jquery.sharrre.js"></script>
         <script type="text/javascript" src="js/onload.js"></script>
         
     </body>

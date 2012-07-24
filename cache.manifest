@@ -1,6 +1,11 @@
 CACHE MANIFEST 
+
+/css/normalize.css
+/css/jquery.sharrre.css
 /css/style.css
-/js/iscroll-lite.js
+
+/js/iscroll.js
 /js/jquery.js
 /js/jquery.pep.js
+/js/jquery.sharrre.js
 /js/onload.js
