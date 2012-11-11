@@ -109,7 +109,7 @@ $(document).ready(function()
     window.scrollTo(0, 1);
     
     // Avoid orientation change issues
-    $(window).resize(function()
+    $(window).bind('orientationchange',function()
     {
         closeMenu();
     });
